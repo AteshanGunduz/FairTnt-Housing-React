@@ -1,0 +1,82 @@
+.header{
+  width: 100%;
+  height: 5rem;
+  background: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header h1{
+  margin-left: 1rem;
+  color: black;
+}
+
+
+.main{
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.houseContainer{
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+
+.houseContainer:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.houseBox{
+  width: 170px;
+  margin-right: 1rem;
+  
+}
+
+.houseContainer img{
+  width: 200px;
+}
+
+
+.houses{
+  display: flex;
+  flex-direction: column;
+  grid-gap:1rem;
+}
+
+
+.calenderBox{
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.calenderBox button{
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 5rem;
+  margin-top: 2rem;
+}
+.calenderBox button:hover{
+  scale: 1.1;
+}
+
+.inputs input{
+  width: 7rem;
+}
+
+.inputs{
+  display: flex;
+}
